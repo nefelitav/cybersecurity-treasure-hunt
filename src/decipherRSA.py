@@ -8,7 +8,7 @@ cy = 47487400
 
 def isPrime(n):
     if (n < 2):
-        return False;
+        return False
     sq = int(math.sqrt(n))
     for i in range(2, sq + 1):
         if (n % i == 0):
@@ -42,5 +42,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-    7419813371074198133710
